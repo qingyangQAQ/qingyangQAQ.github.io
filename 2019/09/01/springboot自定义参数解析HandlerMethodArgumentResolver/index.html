@@ -9,13 +9,14 @@
   <title>springboot自定义参数解析HandlerMethodArgumentResolver | 青阳的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="自定义解析器需要实现HandlerMethodArgumentResolver接口，HandlerMethodArgumentResolver接口包含两个接口函数： 123456public interface HandlerMethodArgumentResolver &amp;#123;    boolean supportsParameter(MethodParameter var1);    @N">
+<meta name="keywords" content="java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="springboot自定义参数解析HandlerMethodArgumentResolver">
 <meta property="og:url" content="https://www.qingyangblog.cn/2019/09/01/springboot自定义参数解析HandlerMethodArgumentResolver/index.html">
 <meta property="og:site_name" content="青阳的博客">
 <meta property="og:description" content="自定义解析器需要实现HandlerMethodArgumentResolver接口，HandlerMethodArgumentResolver接口包含两个接口函数： 123456public interface HandlerMethodArgumentResolver &amp;#123;    boolean supportsParameter(MethodParameter var1);    @N">
 <meta property="og:locale" content="ch-CN">
-<meta property="og:updated_time" content="2019-09-01T08:06:46.364Z">
+<meta property="og:updated_time" content="2019-09-01T08:24:49.976Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="springboot自定义参数解析HandlerMethodArgumentResolver">
 <meta name="twitter:description" content="自定义解析器需要实现HandlerMethodArgumentResolver接口，HandlerMethodArgumentResolver接口包含两个接口函数： 123456public interface HandlerMethodArgumentResolver &amp;#123;    boolean supportsParameter(MethodParameter var1);    @N">
@@ -47,7 +48,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="http://qy-blog.oss-cn-shanghai.aliyuncs.com/blog/16ef3c961e43eef0d1676005619b18a1.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">青阳</a></h1>
@@ -99,7 +100,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="http://qy-blog.oss-cn-shanghai.aliyuncs.com/blog/16ef3c961e43eef0d1676005619b18a1.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">青阳</h1>
@@ -212,6 +213,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -384,6 +396,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">java</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
